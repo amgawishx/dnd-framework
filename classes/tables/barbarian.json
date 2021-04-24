@@ -1,0 +1,102 @@
+{
+    "1": {
+        "bonus": 2,
+        "Rages": 2,
+        "Rage Damage": 2
+    },
+    "2": {
+        "bonus": 2,
+        "Rages": 2,
+        "Rage Damage": 2
+    },
+    "3": {
+        "bonus": 2,
+        "Rages": 3,
+        "Rage Damage": 2
+    },
+    "4": {
+        "bonus": 2,
+        "Rages": 3,
+        "Rage Damage": 2
+    },
+    "5": {
+        "bonus": 3,
+        "Rages": 3,
+        "Rage Damage": 2
+    },
+    "6": {
+        "bonus": 3,
+        "Rages": 4,
+        "Rage Damage": 2
+    },
+    "7": {
+        "bonus": 3,
+        "Rages": 4,
+        "Rage Damage": 2
+    },
+    "8": {
+        "bonus": 3,
+        "Rages": 4,
+        "Rage Damage": 2
+    },
+    "9": {
+        "bonus": 4,
+        "Rages": 4,
+        "Rage Damage": 3
+    },
+    "10": {
+        "bonus": 4,
+        "Rages": 4,
+        "Rage Damage": 3
+    },
+    "11": {
+        "bonus": 4,
+        "Rages": 4,
+        "Rage Damage": 3
+    },
+    "12": {
+        "bonus": 4,
+        "Rages": 5,
+        "Rage Damage": 3
+    },
+    "13": {
+        "bonus": 5,
+        "Rages": 5,
+        "Rage Damage": 3
+    },
+    "14": {
+        "bonus": 5,
+        "Rages": 5,
+        "Rage Damage": 3
+    },
+    "15": {
+        "bonus": 5,
+        "Rages": 5,
+        "Rage Damage": 3
+    },
+    "16": {
+        "bonus": 5,
+        "Rages": 5,
+        "Rage Damage": 4
+    },
+    "17": {
+        "bonus": 6,
+        "Rages": 6,
+        "Rage Damage": 4
+    },
+    "18": {
+        "bonus": 6,
+        "Rages": 6,
+        "Rage Damage": 4
+    },
+    "19": {
+        "bonus": 6,
+        "Rages": 6,
+        "Rage Damage": 4
+    },
+    "20": {
+        "bonus": 6,
+        "Rages": Infinity,
+        "Rage Damage": 4
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "1": {
+        "bonus": 2,
+        "Crimson Rite Die": "1d4",
+        "Blood Maledictions": null,
+        "Blood Curses": null
+    },
+    "2": {
+        "bonus": 2,
+        "Crimson Rite Die": "1d4",
+        "Blood Maledictions": 1,
+        "Blood Curses": 2
+    },
+    "3": {
+        "bonus": 2,
+        "Crimson Rite Die": "1d4",
+        "Blood Maledictions": 1,
+        "Blood Curses": 2
+    },
+    "4": {
+        "bonus": 2,
+        "Crimson Rite Die": "1d4",
+        "Blood Maledictions": 1,
+        "Blood Curses": 2
+    },
+    "5": {
+        "bonus": 3,
+        "Crimson Rite Die": "1d6",
+        "Blood Maledictions": 2,
+        "Blood Curses": 3
+    },
+    "6": {
+        "bonus": 3,
+        "Crimson Rite Die": "1d6",
+        "Blood Maledictions": 2,
+        "Blood Curses": 3
+    },
+    "7": {
+        "bonus": 3,
+        "Crimson Rite Die": "1d6",
+        "Blood Maledictions": 3,
+        "Blood Curses": 4
+    },
+    "8": {
+        "bonus": 3,
+        "Crimson Rite Die": "1d6",
+        "Blood Maledictions": 3,
+        "Blood Curses": 4
+    },
+    "9": {
+        "bonus": 4,
+        "Crimson Rite Die": "1d6",
+        "Blood Maledictions": 3,
+        "Blood Curses": 5
+    },
+    "10": {
+        "bonus": 4,
+        "Crimson Rite Die": "1d6",
+        "Blood Maledictions": 3,
+        "Blood Curses": 5
+    },
+    "11": {
+        "bonus": 4,
+        "Crimson Rite Die": "1d8",
+        "Blood Maledictions": 4,
+        "Blood Curses": 6
+    },
+    "12": {
+        "bonus": 4,
+        "Crimson Rite Die": "1d8",
+        "Blood Maledictions": 4,
+        "Blood Curses": 6
+    },
+    "13": {
+        "bonus": 5,
+        "Crimson Rite Die": "1d8",
+        "Blood Maledictions": 4,
+        "Blood Curses": 7
+    },
+    "14": {
+        "bonus": 5,
+        "Crimson Rite Die": "1d8",
+        "Blood Maledictions": 4,
+        "Blood Curses": 7
+    },
+    "15": {
+        "bonus": 5,
+        "Crimson Rite Die": "1d8",
+        "Blood Maledictions": 5,
+        "Blood Curses": 8
+    },
+    "16": {
+        "bonus": 5,
+        "Crimson Rite Die": "1d8",
+        "Blood Maledictions": 5,
+        "Blood Curses": 8
+    },
+    "17": {
+        "bonus": 6,
+        "Crimson Rite Die": "1d10",
+        "Blood Maledictions": 5,
+        "Blood Curses": 9
+    },
+    "18": {
+        "bonus": 6,
+        "Crimson Rite Die": "1d10",
+        "Blood Maledictions": 5,
+        "Blood Curses": 9
+    },
+    "19": {
+        "bonus": 6,
+        "Crimson Rite Die": "1d10",
+        "Blood Maledictions": 6,
+        "Blood Curses": 10
+    },
+    "20": {
+        "bonus": 6,
+        "Crimson Rite Die": "1d10",
+        "Blood Maledictions": 6,
+        "Blood Curses": 10
+    }
+}

@@ -1,0 +1,403 @@
+{
+    "py/object": "builds.Character",
+    "name": "Alexander",
+    "race": {
+        "py/object": "builds.Race",
+        "name": "Aasimar (Fallen)",
+        "size": "Medium",
+        "bonuses": {
+            "cha": 2,
+            "str": 1
+        },
+        "languages": [
+            "common",
+            "celestial"
+        ],
+        "resistances": [
+            "necrotic",
+            "radiant"
+        ],
+        "speed": 30,
+        "spells": [
+            {
+                "py/object": "mechanics.Spell",
+                "name": "Light",
+                "level": 0,
+                "concentration": false,
+                "damage": null,
+                "condition": null,
+                "check": "dex",
+                "desc": "You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action.",
+                "components": [
+                    "V",
+                    "M"
+                ],
+                "damage_type": null,
+                "school": "Evocation",
+                "dc": null,
+                "cost": "1 action",
+                "attack": null,
+                "caster": null
+            }
+        ],
+        "features": {
+            "Healing Hands": {
+                "py/object": "mechanics.Feature",
+                "name": "Healing Hands",
+                "function": {
+                    "py/function": "features.functions.healingHands"
+                },
+                "cost": "1 action",
+                "character": {
+                    "py/id": 0
+                },
+                "desc": null
+            },
+            "Necrotic Shroud": {
+                "py/object": "mechanics.Feature",
+                "name": "Necrotic Shroud",
+                "function": {
+                    "py/function": "features.functions.necroticShroud"
+                },
+                "cost": "1 action",
+                "character": {
+                    "py/id": 0
+                },
+                "desc": null
+            }
+        },
+        "pro": null
+    },
+    "classes": {
+        "Bloodhunter": {
+            "py/object": "builds.Class",
+            "name": "Bloodhunter",
+            "table": {
+                "1": {
+                    "bonus": 2,
+                    "Crimson Rite Die": "1d4",
+                    "Blood Maledictions": null,
+                    "Blood Curses": null
+                },
+                "2": {
+                    "bonus": 2,
+                    "Crimson Rite Die": "1d4",
+                    "Blood Maledictions": 1,
+                    "Blood Curses": 2
+                },
+                "3": {
+                    "bonus": 2,
+                    "Crimson Rite Die": "1d4",
+                    "Blood Maledictions": 1,
+                    "Blood Curses": 2
+                },
+                "4": {
+                    "bonus": 2,
+                    "Crimson Rite Die": "1d4",
+                    "Blood Maledictions": 1,
+                    "Blood Curses": 2
+                },
+                "5": {
+                    "bonus": 3,
+                    "Crimson Rite Die": "1d6",
+                    "Blood Maledictions": 2,
+                    "Blood Curses": 3
+                },
+                "6": {
+                    "bonus": 3,
+                    "Crimson Rite Die": "1d6",
+                    "Blood Maledictions": 2,
+                    "Blood Curses": 3
+                },
+                "7": {
+                    "bonus": 3,
+                    "Crimson Rite Die": "1d6",
+                    "Blood Maledictions": 3,
+                    "Blood Curses": 4
+                },
+                "8": {
+                    "bonus": 3,
+                    "Crimson Rite Die": "1d6",
+                    "Blood Maledictions": 3,
+                    "Blood Curses": 4
+                },
+                "9": {
+                    "bonus": 4,
+                    "Crimson Rite Die": "1d6",
+                    "Blood Maledictions": 3,
+                    "Blood Curses": 5
+                },
+                "10": {
+                    "bonus": 4,
+                    "Crimson Rite Die": "1d6",
+                    "Blood Maledictions": 3,
+                    "Blood Curses": 5
+                },
+                "11": {
+                    "bonus": 4,
+                    "Crimson Rite Die": "1d8",
+                    "Blood Maledictions": 4,
+                    "Blood Curses": 6
+                },
+                "12": {
+                    "bonus": 4,
+                    "Crimson Rite Die": "1d8",
+                    "Blood Maledictions": 4,
+                    "Blood Curses": 6
+                },
+                "13": {
+                    "bonus": 5,
+                    "Crimson Rite Die": "1d8",
+                    "Blood Maledictions": 4,
+                    "Blood Curses": 7
+                },
+                "14": {
+                    "bonus": 5,
+                    "Crimson Rite Die": "1d8",
+                    "Blood Maledictions": 4,
+                    "Blood Curses": 7
+                },
+                "15": {
+                    "bonus": 5,
+                    "Crimson Rite Die": "1d8",
+                    "Blood Maledictions": 5,
+                    "Blood Curses": 8
+                },
+                "16": {
+                    "bonus": 5,
+                    "Crimson Rite Die": "1d8",
+                    "Blood Maledictions": 5,
+                    "Blood Curses": 8
+                },
+                "17": {
+                    "bonus": 6,
+                    "Crimson Rite Die": "1d10",
+                    "Blood Maledictions": 5,
+                    "Blood Curses": 9
+                },
+                "18": {
+                    "bonus": 6,
+                    "Crimson Rite Die": "1d10",
+                    "Blood Maledictions": 5,
+                    "Blood Curses": 9
+                },
+                "19": {
+                    "bonus": 6,
+                    "Crimson Rite Die": "1d10",
+                    "Blood Maledictions": 6,
+                    "Blood Curses": 10
+                },
+                "20": {
+                    "bonus": 6,
+                    "Crimson Rite Die": "1d10",
+                    "Blood Maledictions": 6,
+                    "Blood Curses": 10
+                }
+            },
+            "hit_dice": "1d10",
+            "proficiencies": {
+                "Armor": [
+                    "light",
+                    "medium"
+                ],
+                "weapons": [
+                    "simple",
+                    "martial"
+                ],
+                "saves": [
+                    "dex",
+                    "int"
+                ],
+                "tools": [
+                    "alchemist"
+                ],
+                "skills": [
+                    "Arcana",
+                    "Investigation",
+                    "Acrobatics"
+                ]
+            },
+            "features": {
+                "Impute Rite": {
+                    "py/object": "mechanics.Feature",
+                    "name": "Impute Rite",
+                    "function": {
+                        "py/function": "features.functions.imputeRite"
+                    },
+                    "cost": "1 bonus action",
+                    "character": {
+                        "py/id": 0
+                    },
+                    "desc": null
+                },
+                "Mutual Suffering": {
+                    "py/object": "mechanics.Feature",
+                    "name": "Mutual Suffering",
+                    "function": {
+                        "py/function": "features.functions.mutualSuffering"
+                    },
+                    "cost": "1 bonus action",
+                    "character": {
+                        "py/id": 0
+                    },
+                    "desc": null
+                },
+                "Rending Rite": {
+                    "py/object": "mechanics.Feature",
+                    "name": "Rending Rite",
+                    "function": {
+                        "py/function": "features.functions.rendingRite"
+                    },
+                    "cost": "1 bonus action",
+                    "character": {
+                        "py/id": 0
+                    },
+                    "desc": null
+                }
+            },
+            "level": 3,
+            "desc": null
+        }
+    },
+    "background": {
+        "py/object": "builds.Background",
+        "name": "Fallen Hero",
+        "proficiencies": {
+            "skills": [
+                "Intimidation",
+                "Survival"
+            ],
+            "tools": [
+                "Disguise Kit"
+            ]
+        },
+        "languages": [
+            "Infernal"
+        ],
+        "desc": null
+    },
+    "level": 3,
+    "pro_bonus": 2,
+    "abilities": {
+        "str": {
+            "py/object": "mechanics.Ability",
+            "advantage": 0,
+            "_skills_pro": [],
+            "_save_pro": false,
+            "_pro": 0,
+            "score": 14,
+            "name": "str",
+            "mod": 2,
+            "save": 2,
+            "skills": {
+                "Athletics": 2
+            }
+        },
+        "dex": {
+            "py/object": "mechanics.Ability",
+            "advantage": 0,
+            "_skills_pro": [],
+            "_save_pro": false,
+            "_pro": 0,
+            "score": 12,
+            "name": "dex",
+            "mod": 1,
+            "save": 1,
+            "skills": {
+                "Acrobatics": 1,
+                "Sleight of Hand": 1,
+                "Stealth": 1
+            }
+        },
+        "con": {
+            "py/object": "mechanics.Ability",
+            "advantage": 0,
+            "_skills_pro": [],
+            "_save_pro": false,
+            "_pro": 0,
+            "score": 14,
+            "name": "con",
+            "mod": 2,
+            "save": 2,
+            "skills": {}
+        },
+        "int": {
+            "py/object": "mechanics.Ability",
+            "advantage": 0,
+            "_skills_pro": [],
+            "_save_pro": false,
+            "_pro": 0,
+            "score": 15,
+            "name": "int",
+            "mod": 2,
+            "save": 2,
+            "skills": {
+                "Arcana": 2,
+                "History": 2,
+                "Investigation": 2,
+                "Nature": 2,
+                "Religion": 2
+            }
+        },
+        "wis": {
+            "py/object": "mechanics.Ability",
+            "advantage": 0,
+            "_skills_pro": [],
+            "_save_pro": false,
+            "_pro": 0,
+            "score": 10,
+            "name": "wis",
+            "mod": 0,
+            "save": 0,
+            "skills": {
+                "Animal Handling": 0,
+                "Insight": 0,
+                "Medicine": 0,
+                "Perception": 0,
+                "Survival": 0
+            }
+        },
+        "cha": {
+            "py/object": "mechanics.Ability",
+            "advantage": 0,
+            "_skills_pro": [],
+            "_save_pro": false,
+            "_pro": 0,
+            "score": 10,
+            "name": "cha",
+            "mod": 0,
+            "save": 0,
+            "skills": {
+                "Deception": 0,
+                "Intimidation": 0,
+                "Performance": 0,
+                "Persuasion": 0
+            }
+        }
+    },
+    "spellcaster": true,
+    "spellcasting_ability": "int",
+    "dc": 12,
+    "slots": {
+        "1": {
+            "py/object": "mechanics.Slot",
+            "level": 1,
+            "_uses": 1,
+            "uses": 1
+        }
+    },
+    "spells": {},
+    "max_hp": 36,
+    "current_hp": 36,
+    "ac": 15,
+    "conditions": [],
+    "bag": {
+        "weapons": [],
+        "tools": [],
+        "misc": []
+    },
+    "vulnerabilities": [],
+    "misc_resistances": [],
+    "misc_damages": [],
+    "_events": {}
+}

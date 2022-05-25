@@ -9,4 +9,5 @@ The following is a general outline of the usage of each code file:
 `orm.py`: It's the file containing the functions for _Object-Relational Mapping_ that interacts with the online D&D database API and create a suitable object representation of the acquired data.
 
 `utils.py`: Contains various helper functions such as saving and loading objects stored in _pickle_  files (a file which contains the attributes and the metadata of a class instance) among others.
+
 `sandbox.py`: It is just where I try stuff.
